@@ -1,0 +1,94 @@
+{"gameId": 1, "id": 807757, "members": [
+        {"displayName": "theBIGHURT326", "id": "{
+                10C58CB2-3F91-422C-B93F-76E92C208111
+            }", "isLeagueManager": False
+        },
+        {"displayName": "brendanp27", "id": "{
+                18DB0098-A407-4BB5-8513-5EEE4C00028F
+            }", "isLeagueManager": False
+        },
+        {"displayName": "David41558", "id": "{
+                3188179F-D803-4F7B-8817-9FD8038F7B35
+            }", "isLeagueManager": False
+        },
+        {"displayName": "RaiderU14", "id": "{
+                36D7B8DF-02A9-4159-9973-F0CC8B55E118
+            }", "isLeagueManager": False
+        },
+        {"displayName": "James417944", "id": "{
+                519CD8A9-FF43-426A-9CD8-A9FF43E26A2C
+            }", "isLeagueManager": False
+        },
+        {"displayName": "jrothfeld1227", "id": "{
+                520265E5-57D1-41D2-BEA5-31767089D465
+            }", "isLeagueManager": False
+        },
+        {"displayName": "mrothf1088521", "id": "{
+                52F3A22A-2381-426B-A663-3A3E4B2F4EBB
+            }", "isLeagueManager": False
+        },
+        {"displayName": "wdgannon42@gmail.com", "id": "{
+                8746D8A2-C30F-4521-86D8-A2C30F15215F
+            }", "isLeagueManager": False
+        },
+        {"displayName": "DirkSampson", "id": "{
+                8D0D501E-6224-46AD-8D50-1E6224D6ADD2
+            }", "isLeagueManager": False
+        },
+        {"displayName": "Powerforward115", "id": "{9ED6A556-E65B-4E8E-96A5-56E65B4E8EAA
+            }", "isLeagueManager": False
+        }
+    ], "scoringPeriodId": 15, "seasonId": 2019, "segmentId": 0, "settings": {"name": "Chief Ponchito"
+    }, "status": {"currentMatchupPeriod": 15, "isActive": True, "latestScoringPeriod": 18
+    }, "teams": [
+        {"abbrev": "YUM", "id": 1, "location": "Motor", "nickname": "Boaters", "owners": ["{9ED6A556-E65B-4E8E-96A5-56E65B4E8EAA
+                }"
+            ]
+        },
+        {"abbrev": "8==D", "id": 2, "location": "Sutton Me", "nickname": "Chubb?", "owners": ["{
+                    8746D8A2-C30F-4521-86D8-A2C30F15215F
+                }"
+            ]
+        },
+        {"abbrev": "RIVR", "id": 3, "location": "Riverboat ", "nickname": "Mark II ", "owners": ["{
+                    519CD8A9-FF43-426A-9CD8-A9FF43E26A2C
+                }"
+            ]
+        },
+        {"abbrev": "PERR", "id": 6, "location": "Shitty Titties", "nickname": "ST", "owners": ["{
+                    18DB0098-A407-4BB5-8513-5EEE4C00028F
+                }"
+            ]
+        },
+        {"abbrev": "PATE", "id": 7, "location": "Suck", "nickname": "My Dick", "owners": ["{
+                    10C58CB2-3F91-422C-B93F-76E92C208111
+                }"
+            ]
+        },
+        {"abbrev": "DAVE", "id": 8, "location": "Last", "nickname": "Kupp", "owners": ["{
+                    3188179F-D803-4F7B-8817-9FD8038F7B35
+                }"
+            ]
+        },
+        {"abbrev": "SAMP", "id": 9, "location": "Matty", "nickname": "Football", "owners": ["{
+                    8D0D501E-6224-46AD-8D50-1E6224D6ADD2
+                }"
+            ]
+        },
+        {"abbrev": "CLAM", "id": 10, "location": "New England", "nickname": "Clam Crowder", "owners": ["{
+                    520265E5-57D1-41D2-BEA5-31767089D465
+                }"
+            ]
+        },
+        {"abbrev": "SLUT", "id": 11, "location": "Baby Chark", "nickname": "Du Du DuDu", "owners": ["{
+                    52F3A22A-2381-426B-A663-3A3E4B2F4EBB
+                }"
+            ]
+        },
+        {"abbrev": "ZCBB", "id": 12, "location": "Zeke"s Cabo", "nickname": "Bang Bus", "owners": ["{
+                    36D7B8DF-02A9-4159-9973-F0CC8B55E118
+                }"
+            ]
+        }
+    ]
+}
