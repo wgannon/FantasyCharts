@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
-const repo = "https://github.com/wgannon/FantasyCharts";
+const repo = "https://wgannon.github.io/FantasyCharts/";
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
   /* config options here */
 };
 
