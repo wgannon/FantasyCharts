@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "pages": "npm run build && npm run export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -23,10 +25,5 @@
     "eslint": "^9",
     "eslint-config-next": "^16.0.4",
     "typescript": "^5"
-  },
-  "scripts": {
-  "build": "next build",
-  "export": "next export",
-  "pages": "npm run build && npm run export"
   }
 }
