@@ -27,6 +27,7 @@ export async function GET(
     res = await fetch(url, {
       headers: {
         Cookie: `espn_s2=${s2}; SWID=${swid}`,
+        Accept: 'application/json',
         'User-Agent': 'Mozilla/5.0',
       },
       cache: 'no-store',
