@@ -21,6 +21,17 @@ export interface MatchupResult {
   winner: 'home' | 'away' | 'tie' | 'pending';
 }
 
+export interface StandingEntry {
+  rank: number;
+  teamId: string;
+  name: string;
+  wins: number;
+  losses: number;
+  ties: number;
+  pointsFor: number;
+  pointsAgainst: number;
+}
+
 export interface Challenge {
   id: string;
   title: string;
