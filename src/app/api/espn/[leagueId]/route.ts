@@ -48,7 +48,7 @@ export async function GET(
     data = JSON.parse(text);
   } catch {
     return NextResponse.json(
-      { error: 'ESPN returned non-JSON (cookies are likely expired — log into ESPN and copy fresh espn_s2 and SWID cookies)' },
+      { error: `ESPN returned non-JSON (status ${res.status}). Preview: ${text.slice(0, 300).replace(/\s+/g, ' ')}` },
       { status: 502 }
     );
   }
