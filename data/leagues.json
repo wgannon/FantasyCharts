@@ -1,0 +1,16 @@
+[
+  {
+    "id": "REPLACE_WITH_ESPN_LEAGUE_ID",
+    "name": "ESPN League",
+    "source": "espn",
+    "year": 2024,
+    "currentWeek": 9
+  },
+  {
+    "id": "REPLACE_WITH_SLEEPER_LEAGUE_ID",
+    "name": "Sleeper League",
+    "source": "sleeper",
+    "year": 2024,
+    "currentWeek": 9
+  }
+]

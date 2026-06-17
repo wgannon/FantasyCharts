@@ -1,0 +1,35 @@
+{
+  "leagueSource": "espn",
+  "challenges": [
+    {
+      "id": "kicker-king",
+      "title": "Kicker King",
+      "description": "Most points scored by a kicker this week",
+      "week": 9,
+      "winner": null,
+      "winnerTeam": null,
+      "score": null,
+      "settled": false
+    },
+    {
+      "id": "bench-boss",
+      "title": "Bench Boss",
+      "description": "Highest-scoring bench (players not in starting lineup)",
+      "week": 9,
+      "winner": null,
+      "winnerTeam": null,
+      "score": null,
+      "settled": false
+    },
+    {
+      "id": "blowout-king",
+      "title": "Blowout King",
+      "description": "Largest margin of victory",
+      "week": 9,
+      "winner": null,
+      "winnerTeam": null,
+      "score": null,
+      "settled": false
+    }
+  ]
+}
