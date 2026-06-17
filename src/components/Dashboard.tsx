@@ -31,12 +31,14 @@ export function Dashboard({ leagues, challenges }: Props) {
       ? `/api/espn/${activeLeague.id}?week=${week}&year=${activeLeague.year}`
       : `/api/sleeper/${activeLeague.id}?week=${week}`;
     fetch(endpoint)
-      .then(r => r.json())
-      .then(data => {
-        if (data.error) { setError(data.error); setMatchups([]); }
-        else setMatchups(data);
+      .then(async r => {
+        const text = await r.text();
+        let data: unknown;
+        try { data = JSON.parse(text); } catch { throw new Error(`Server error (${r.status})`); }
+        if (r.ok && Array.isArray(data)) { setMatchups(data as MatchupResult[]); }
+        else { setError((data as { error?: string })?.error ?? `Server error (${r.status})`); setMatchups([]); }
       })
-      .catch(() => setError('Failed to load matchups'))
+      .catch((e: Error) => setError(e.message))
       .finally(() => setLoading(false));
   }, [activeLeague, week]);
 

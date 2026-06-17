@@ -36,8 +36,11 @@ export async function GET(
     return NextResponse.json({ error: 'Sleeper API error' }, { status: 502 });
   }
 
-  const [users, rosters, matchups]: [SleeperUser[], SleeperRoster[], SleeperMatchup[]] =
+  const [users, rosters, rawMatchups]: [SleeperUser[], SleeperRoster[], SleeperMatchup[] | null] =
     await Promise.all([usersRes.json(), rostersRes.json(), matchupsRes.json()]);
+
+  // Sleeper returns null for weeks with no data
+  const matchups: SleeperMatchup[] = Array.isArray(rawMatchups) ? rawMatchups : [];
 
   const userNames: Record<string, string> = {};
   for (const u of users) {
@@ -51,6 +54,7 @@ export async function GET(
 
   const grouped: Record<number, SleeperMatchup[]> = {};
   for (const m of matchups) {
+    if (m.matchup_id == null) continue; // bye week
     if (!grouped[m.matchup_id]) grouped[m.matchup_id] = [];
     grouped[m.matchup_id].push(m);
   }
