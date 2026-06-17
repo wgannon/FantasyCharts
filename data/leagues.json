@@ -1,10 +1,10 @@
 [
   {
-    "id": "REPLACE_WITH_ESPN_LEAGUE_ID",
+    "id": "807757",
     "name": "ESPN League",
     "source": "espn",
-    "year": 2024,
-    "currentWeek": 9
+    "year": 2020,
+    "currentWeek": 13
   },
   {
     "id": "REPLACE_WITH_SLEEPER_LEAGUE_ID",
