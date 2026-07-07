@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# fantasy aggregator
+config.yaml
+backend/.cache/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.venv/
