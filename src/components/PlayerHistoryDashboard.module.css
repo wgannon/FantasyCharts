@@ -1,0 +1,187 @@
+.teamSelect {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.teamBtn {
+  padding: 10px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--muted);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.teamBtn:hover {
+  border-color: rgba(110, 242, 193, 0.3);
+  color: var(--text);
+}
+
+.teamBtn.active {
+  border-color: rgba(110, 242, 193, 0.5);
+  background: rgba(110, 242, 193, 0.08);
+  color: #6ef2c1;
+}
+
+.posGroup {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  padding: 10px 0 6px;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 6px;
+}
+
+.playerCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.15s;
+}
+
+.playerCard:hover {
+  border-color: rgba(110, 242, 193, 0.2);
+}
+
+.playerHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.playerName {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+}
+
+.posBadge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.posBadge.QB {
+  background: rgba(72, 199, 142, 0.15);
+  color: #48c78e;
+  border: 1px solid rgba(72, 199, 142, 0.3);
+}
+
+.posBadge.RB {
+  background: rgba(126, 196, 255, 0.15);
+  color: #7ec4ff;
+  border: 1px solid rgba(126, 196, 255, 0.3);
+}
+
+.posBadge.WR {
+  background: rgba(180, 130, 255, 0.15);
+  color: #b482ff;
+  border: 1px solid rgba(180, 130, 255, 0.3);
+}
+
+.posBadge.TE {
+  background: rgba(255, 170, 80, 0.15);
+  color: #ffaa50;
+  border: 1px solid rgba(255, 170, 80, 0.3);
+}
+
+.posBadge.K,
+.posBadge.DEF {
+  background: rgba(159, 178, 208, 0.12);
+  color: #9fb2d0;
+  border: 1px solid rgba(159, 178, 208, 0.25);
+}
+
+.posBadge.other {
+  background: rgba(159, 178, 208, 0.08);
+  color: #9fb2d0;
+  border: 1px solid rgba(159, 178, 208, 0.2);
+}
+
+.nflTeam {
+  font-size: 12px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.starterBadge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(110, 242, 193, 0.08);
+  color: #6ef2c1;
+  border: 1px solid rgba(110, 242, 193, 0.25);
+  flex-shrink: 0;
+}
+
+.statGrid {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.statBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 60px;
+}
+
+.statLabel {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+.statValue {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.noData {
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.posSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.errorBox {
+  background: rgba(255, 143, 177, 0.08);
+  border: 1px solid rgba(255, 143, 177, 0.3);
+  color: #ff8fb1;
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 14px;
+}
