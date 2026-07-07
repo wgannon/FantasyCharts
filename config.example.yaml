@@ -1,0 +1,29 @@
+espn:
+  s2_cookie: "paste_your_espn_s2_cookie_here"
+  swid: "{paste_your_SWID_here_including_braces}"
+
+season: 2024
+
+leagues:
+  - name: "League A"
+    platform: espn
+    league_id: 12345
+  - name: "League B"
+    platform: espn
+    league_id: 67890
+  - name: "League C"
+    platform: sleeper
+    league_id: "987654321"
+
+# Manual owner mapping. Keys are canonical owner names.
+# Values map league name -> team identifier
+# (ESPN: integer teamId, Sleeper: owner user_id string)
+# Run GET /api/owners/dump to discover IDs for each league.
+owners:
+  Matt:
+    "League A": 3
+    "League B": 7
+    "League C": "sleeper_user_id_here"
+  Dave:
+    "League A": 5
+    "League C": "another_user_id"
